@@ -28,6 +28,8 @@ il prezzo del biglietto è definito in base ai km (0.21 € al km)
    price = price - reduction
 4. Rendo il prezzo con due cifre decimali
 
+price = price.toFixed(2);
+
 5. preparo il messaggio del costo del biglietto
 
    ticket = `Il tuo biglietto costa ${price}, Buon Viaggio!`;
