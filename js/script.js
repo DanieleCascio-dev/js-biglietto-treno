@@ -30,3 +30,10 @@ if (userAge < 18) {
 //Rendo il prezzo con due cifre decimali
 price = price.toFixed(2);
 console.log(price);
+
+//Preparo il ticket
+
+let ticket = `Il tuo biglietto costa ${price}€, buon viaggio!`;
+
+//Output
+document.getElementById("ticket").innerHTML = ticket;
